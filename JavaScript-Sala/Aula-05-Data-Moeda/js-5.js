@@ -58,3 +58,9 @@ var nome = window.prompt('Qual o seu nome : ')
 document.write(`Ola, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras`)
 document.write(`<br> Seu nome em maíusculo é ${nome.toLocaleUpperCase()}.`)
 document.write(`<br> Seu nome em minúsculo é ${nome.toLowerCase()}.`)
+
+
+//Removendo espaço da string
+const novoNome = nome.replace(/\s/g,"")
+
+document.write(`Ola, <strong>${nome}</strong>! Seu nome tem ${novoNome.length} letras sem os espaços`)
