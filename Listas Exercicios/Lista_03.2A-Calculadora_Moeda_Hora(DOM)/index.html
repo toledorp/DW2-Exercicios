@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      margin: 50px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    input,
+    button {
+      margin: 5px 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    #resultado {
+      margin-top: 15px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style> -->
+</head>
+
+<body>
+  <div id="container">
+    <h1>Conversor de Moedas</h1>
+  
+    <label for="valor">Valor em BRL (R$):</label>
+    <input type="number" id="valor" placeholder="Digite o valor em R$" />
+  
+    <div>
+      <button onclick="cotacao('USD')">Converter para Dólar (USD)</button>
+      <button onclick="cotacao('GBP')">Converter para Libra (GBP)</button>
+      <button onclick="cotacao('EUR')">Converter para Euro (EUR)</button>
+      <button onclick="cotacao('JPY')">Converter para Iene (JPY)</button>
+    </div>
+  
+    <p id="resultado"></p>
+  </div>
+</body>
+<script src="js.03.2A.js"></script>
+
+</html>

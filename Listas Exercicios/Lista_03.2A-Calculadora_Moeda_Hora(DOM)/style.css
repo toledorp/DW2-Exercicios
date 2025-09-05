@@ -1,0 +1,38 @@
+
+/* Estilo básico para a div container */
+#container {
+  height: 100vh; /* Ocupa toda a altura da tela */
+  width: 100%;
+  background-color: #aff09c; /* verde claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Estilo para os botões */
+input, 
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Cores diferentes para os botões */
+/* button:first-child {
+  background-color: #333;
+  color: white;
+}
+
+button:last-child {
+  background-color: #f0f0f0;
+  color: #333;
+} */
+
+button:hover {
+  opacity: 0.8;
+}
